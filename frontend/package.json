@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "serve dist -s -l $PORT",
+    "start": "serve dist -s -p 8080",
     "test": "vitest run --reporter=verbose"
   },
   "dependencies": {
