@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "start": "serve dist -s",
     "test": "vitest run --reporter=verbose"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.22.3",
     "recharts": "^3.8.1",
+    "serve": "^14.2.0",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
