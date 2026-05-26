@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GraduationCap, Mail, MapPin, Phone } from 'lucide-react';
+import logoImg from '../../assets/logo';
 
 const Footer: React.FC = () => {
   const navigate = useNavigate();
@@ -19,7 +20,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-3">
               <div className="bg-white rounded-lg p-1">
                 <img 
-                  src="/src/assets/images/logo-umariana.png" 
+                  src={logoImg} 
                   alt="Universidad Mariana" 
                   className="h-14 w-14 object-contain"
                   onError={(e) => {

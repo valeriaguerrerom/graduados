@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { Menu, X, GraduationCap, Mail, Phone, Globe, User, LogOut } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
+import logoImg from '../../assets/logo';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -92,7 +93,7 @@ const Navbar: React.FC = () => {
             }} className="flex items-center space-x-3 group cursor-pointer">
               <div className="bg-white p-2 rounded-lg shadow-sm group-hover:shadow-md transition-all">
                 <img 
-                  src="/src/assets/images/logo-umariana.png" 
+                  src={logoImg} 
                   alt="Universidad Mariana" 
                   className="h-14 w-14 md:h-16 md:w-16 object-contain"
                   onError={(e) => {

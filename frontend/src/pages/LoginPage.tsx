@@ -2,6 +2,7 @@
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { Lock, User, AlertCircle, GraduationCap } from 'lucide-react';
+import logoImg from '../assets/logo';
 
 const LoginPage: React.FC = () => {
   const [cedula, setCedula] = useState('');
@@ -71,7 +72,7 @@ const LoginPage: React.FC = () => {
           <div className="flex justify-center mb-3">
             <div className="bg-white p-2.5 rounded-full shadow-lg">
               <img 
-                src="/src/assets/images/logo-umariana.png" 
+                src={logoImg} 
                 alt="Universidad Mariana" 
                 className="h-14 w-14 object-contain"
                 onError={(e) => {
