@@ -67,7 +67,7 @@ const Hero: React.FC = () => {
                 ].map((item, i) => (
                   <div
                     key={i}
-                    className="bg-white/12 backdrop-blur-[8px] border border-white/25 rounded-xl px-4 py-4 flex flex-col items-center gap-2 hover:bg-[rgba(245,166,35,0.25)] hover:border-secondary transition-all duration-300 cursor-default"
+                    className="bg-white/10 backdrop-blur-[8px] border border-white/25 rounded-xl px-4 py-4 flex flex-col items-center gap-2 hover:bg-[rgba(245,166,35,0.25)] hover:border-secondary transition-all duration-300 cursor-default"
                   >
                     <span className="text-secondary">{item.icon}</span>
                     <span className="text-white text-xs font-medium text-center">{item.label}</span>

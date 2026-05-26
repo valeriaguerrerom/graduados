@@ -79,7 +79,7 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Barra Principal de Navegación */}
-      <div className="bg-white border-b-4 border-secondary">
+      <div className="bg-white border-b-4 border-secondary rounded-b-2xl mx-2 shadow-md">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <div onClick={(e) => {
