@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
       {/* Gradient overlay with depth */}
       <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, rgba(27,45,107,0.82) 0%, rgba(27,45,107,0.5) 50%, rgba(0,0,0,0.6) 100%)' }}></div>
       
-      <div className="container mx-auto px-4 py-12 md:py-16 relative z-10">
+      <div className="container mx-auto px-6 lg:px-10 py-12 md:py-16 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {isAuthenticated ? (
             <>

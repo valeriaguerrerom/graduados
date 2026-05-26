@@ -58,7 +58,7 @@ const Navbar: React.FC = () => {
     <header className="shadow-lg sticky top-0 z-50">
       {/* Barra Superior Institucional */}
       <div className="bg-primary text-white py-2 border-b border-primary-light">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-10">
           <div className="flex flex-wrap justify-between items-center text-xs md:text-sm">
             <div className="flex items-center space-x-4">
               <a href="mailto:egresadosespsistintegradosg@umariana.edu.co" className="flex items-center space-x-1 hover:text-secondary transition-colors">
@@ -80,7 +80,7 @@ const Navbar: React.FC = () => {
 
       {/* Barra Principal de Navegación */}
       <div className="bg-white border-b-4 border-secondary">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-6 lg:px-10 py-4">
           <div className="flex justify-between items-center">
             <div onClick={(e) => {
               if (isAuthenticated && !profileComplete) {

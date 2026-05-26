@@ -21,7 +21,7 @@ const Section: React.FC<SectionProps> = ({
 
   return (
     <section id={id} className={`py-12 ${className}`}>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6 lg:px-10">
         {(title || subtitle) && (
           <div className={`mb-10 ${textAlignClass}`}>
             {title && <h2 className="text-3xl font-bold text-primary mb-3">{title}</h2>}
