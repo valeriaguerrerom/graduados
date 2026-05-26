@@ -103,7 +103,7 @@ const Footer: React.FC = () => {
           </div>
           <div className="mt-4 text-center">
             <p style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.75rem' }}>
-              {atob('MjAyNiDCtyBEZXZlbG9wZXIgVmFsZXJpYSBHdWVycmVybyBNZWrDrWEgwrcgdmFsZXJpYXNvLmd1ZXJyZXJvQHVtYXJpYW5hLmVkdS5jbw==')}
+              {`2026 \u00B7 Developer Valeria Guerrero Mej\u00EDa \u00B7 valeriaso.guerrero@umariana.edu.co`}
             </p>
           </div>
         </div>
