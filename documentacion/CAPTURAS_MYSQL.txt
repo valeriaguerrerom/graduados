@@ -1,0 +1,349 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║   CAPTURAS DE PANTALLA - MYSQL WORKBENCH                      ║
+║   (Referencia Visual)                                         ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+📸 CAPTURA 1: PANTALLA INICIAL DE MYSQL WORKBENCH
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────────────────────────────────────┐
+│ MySQL Workbench 8.0 CE                              [_][□][X] │
+├───────────────────────────────────────────────────────────────┤
+│ File  Edit  View  Query  Database  Server  Tools  Help       │
+├───────────────────────────────────────────────────────────────┤
+│                                                               │
+│  MySQL Connections                                            │
+│  ┌─────────────────────────────────────────────────────────┐ │
+│  │                                                         │ │
+│  │   ┌─────────────────────────────────────────────┐     │ │
+│  │   │  🗄️                                         │     │ │
+│  │   │  Local instance MySQL80                     │     │ │
+│  │   │  root@localhost:3306                        │     │ │
+│  │   │                                             │     │ │
+│  │   │  [Doble clic para conectar]                │     │ │
+│  │   └─────────────────────────────────────────────┘     │ │
+│  │                                                         │ │
+│  │   [+] New Connection                                   │ │
+│  └─────────────────────────────────────────────────────────┘ │
+│                                                               │
+│  Models                                                       │
+│  ┌─────────────────────────────────────────────────────────┐ │
+│  │  [+] Create New EER Model                              │ │
+│  └─────────────────────────────────────────────────────────┘ │
+└───────────────────────────────────────────────────────────────┘
+
+👆 AQUÍ: Haz doble clic en "Local instance MySQL80"
+
+
+📸 CAPTURA 2: VENTANA DE CONTRASEÑA
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────────────────────────────────────┐
+│ Connect to MySQL Server                           [_][□][X]  │
+├───────────────────────────────────────────────────────────────┤
+│                                                               │
+│  Connection: Local instance MySQL80                           │
+│                                                               │
+│  Password:                                                    │
+│  ┌─────────────────────────────────────────────────────────┐ │
+│  │ ●●●●●●●●                                                │ │
+│  └─────────────────────────────────────────────────────────┘ │
+│                                                               │
+│  ☑ Save password in vault                                    │
+│                                                               │
+│                                    [Cancel]  [OK]             │
+└───────────────────────────────────────────────────────────────┘
+
+👆 AQUÍ: Ingresa tu contraseña de MySQL
+
+
+📸 CAPTURA 3: PANTALLA PRINCIPAL (CONECTADO)
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────────────────────────────────────┐
+│ MySQL Workbench - Local instance MySQL80            [_][□][X] │
+├───────────────────────────────────────────────────────────────┤
+│ File  Edit  View  Query  Database  Server  Tools  Help       │
+├───┬───────────────────────────────────────────────────────────┤
+│ S │ Query 1                                          [⚡][💾] │
+│ C ├───────────────────────────────────────────────────────────┤
+│ H │                                                           │
+│ E │  1  -- Escribe tus queries aquí                          │
+│ M │  2                                                        │
+│ A │  3                                                        │
+│ S │  4                                                        │
+│   │  5                                                        │
+│ 📁│                                                           │
+│ 📁│                                                           │
+│ 📁│                                                           │
+│   ├───────────────────────────────────────────────────────────┤
+│   │ Action Output                                             │
+│   │ ─────────────────────────────────────────────────────────│
+│   │ (Aquí aparecerán los resultados)                         │
+└───┴───────────────────────────────────────────────────────────┘
+
+👆 ÁREA IZQUIERDA: Panel de Schemas (bases de datos)
+👆 ÁREA CENTRAL: Editor de queries (donde escribes SQL)
+👆 ÁREA INFERIOR: Resultados y mensajes
+
+
+📸 CAPTURA 4: ABRIR ARCHIVO SQL
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────────────────────────────────────┐
+│ Open SQL Script                                    [_][□][X]  │
+├───────────────────────────────────────────────────────────────┤
+│ Buscar en: server                                    [▼]  [🔍]│
+├───────────────────────────────────────────────────────────────┤
+│ Nombre                    Fecha modificación    Tipo          │
+│ ─────────────────────────────────────────────────────────────│
+│ 📄 .env.example          21/11/2024 10:30      ENV File      │
+│ 📄 database.sql          21/11/2024 10:30      SQL File  ←── │
+│ 📄 db.js                 21/11/2024 10:30      JS File       │
+│ 📄 install.bat           21/11/2024 10:30      BAT File      │
+│ 📄 package.json          21/11/2024 10:30      JSON File     │
+│ 📄 server.js             21/11/2024 10:30      JS File       │
+├───────────────────────────────────────────────────────────────┤
+│ Nombre de archivo: database.sql                              │
+│ Tipo de archivo: SQL Files (*.sql)                [▼]        │
+│                                                               │
+│                                    [Cancel]  [Open]           │
+└───────────────────────────────────────────────────────────────┘
+
+👆 AQUÍ: Selecciona "database.sql" y haz clic en "Open"
+
+
+📸 CAPTURA 5: SCRIPT CARGADO
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────────────────────────────────────┐
+│ MySQL Workbench - database.sql                     [_][□][X] │
+├───────────────────────────────────────────────────────────────┤
+│ File  Edit  View  Query  Database  Server  Tools  Help       │
+├───┬───────────────────────────────────────────────────────────┤
+│ S │ database.sql                    [⚡][💾][📋][🔍]  ←─────│
+│ C ├───────────────────────────────────────────────────────────┤
+│ H │                                                           │
+│ E │  1  -- Crear la base de datos                            │
+│ M │  2  CREATE DATABASE IF NOT EXISTS red_egresados...       │
+│ A │  3                                                        │
+│ S │  4  USE red_egresados;                                   │
+│   │  5                                                        │
+│ 📁│  6  -- Tabla de usuarios/egresados                       │
+│ 📁│  7  CREATE TABLE IF NOT EXISTS usuarios (                │
+│ 📁│  8    id INT AUTO_INCREMENT PRIMARY KEY,                 │
+│   │  9    cedula VARCHAR(20) UNIQUE NOT NULL,                │
+│   │ 10    password VARCHAR(255) NOT NULL,                    │
+│   │ ...                                                       │
+└───┴───────────────────────────────────────────────────────────┘
+
+👆 AQUÍ: Haz clic en el RAYO AMARILLO ⚡ para ejecutar
+
+
+📸 CAPTURA 6: SCRIPT EJECUTÁNDOSE
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────────────────────────────────────┐
+│ Action Output                                                 │
+├───────────────────────────────────────────────────────────────┤
+│ ⏳ Executing SQL script in server                            │
+│                                                               │
+│ ✅ CREATE DATABASE red_egresados completed                   │
+│ ✅ USE red_egresados completed                               │
+│ ✅ CREATE TABLE usuarios completed                           │
+│ ⏳ INSERT INTO usuarios... (processing)                      │
+│                                                               │
+│ [████████████████░░░░] 75%                                   │
+└───────────────────────────────────────────────────────────────┘
+
+👆 ESPERA: El script está ejecutándose
+
+
+📸 CAPTURA 7: SCRIPT COMPLETADO
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────────────────────────────────────┐
+│ Action Output                                                 │
+├───────────────────────────────────────────────────────────────┤
+│ ✅ CREATE DATABASE red_egresados completed                   │
+│ ✅ USE red_egresados completed                               │
+│ ✅ CREATE TABLE usuarios completed                           │
+│ ✅ INSERT INTO usuarios... 66 rows affected                  │
+│ ✅ CREATE INDEX idx_cedula completed                         │
+│ ✅ CREATE INDEX idx_email completed                          │
+│                                                               │
+│ SQL script execution finished: statements: 70 succeeded,     │
+│ 0 failed                                                      │
+│                                                               │
+│ Duration: 2.5 sec                                             │
+└───────────────────────────────────────────────────────────────┘
+
+👆 ¡ÉXITO! Todo se ejecutó correctamente
+
+
+📸 CAPTURA 8: PANEL DE SCHEMAS (ANTES DE REFRESCAR)
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────┐
+│ SCHEMAS                  [🔄] │ ← Clic aquí para refrescar
+├───────────────────────────────┤
+│ 📁 information_schema         │
+│ 📁 mysql                      │
+│ 📁 performance_schema         │
+│ 📁 sys                        │
+│                               │
+│ (red_egresados no aparece)   │
+└───────────────────────────────┘
+
+👆 AQUÍ: Haz clic en el icono de refrescar 🔄
+
+
+📸 CAPTURA 9: PANEL DE SCHEMAS (DESPUÉS DE REFRESCAR)
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────┐
+│ SCHEMAS                  [🔄] │
+├───────────────────────────────┤
+│ 📁 information_schema         │
+│ 📁 mysql                      │
+│ 📁 performance_schema         │
+│ ▶ 📁 red_egresados       ←── │ ¡AQUÍ ESTÁ!
+│ 📁 sys                        │
+└───────────────────────────────┘
+
+👆 AQUÍ: Haz clic en la flechita ▶ para expandir
+
+
+📸 CAPTURA 10: SCHEMA EXPANDIDO
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────┐
+│ SCHEMAS                  [🔄] │
+├───────────────────────────────┤
+│ 📁 information_schema         │
+│ 📁 mysql                      │
+│ 📁 performance_schema         │
+│ ▼ 📁 red_egresados            │
+│   ├─ ▶ 📋 Tables              │ ← Clic aquí
+│   ├─ ▶ 👁️ Views               │
+│   ├─ ▶ ⚙️ Stored Procedures   │
+│   └─ ▶ 🔧 Functions           │
+│ 📁 sys                        │
+└───────────────────────────────┘
+
+👆 AQUÍ: Expande "Tables"
+
+
+📸 CAPTURA 11: TABLA USUARIOS VISIBLE
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────┐
+│ SCHEMAS                  [🔄] │
+├───────────────────────────────┤
+│ ▼ 📁 red_egresados            │
+│   ├─ ▼ 📋 Tables              │
+│   │   └─ 👥 usuarios      ←── │ ¡AQUÍ!
+│   ├─ ▶ 👁️ Views               │
+│   ├─ ▶ ⚙️ Stored Procedures   │
+│   └─ ▶ 🔧 Functions           │
+└───────────────────────────────┘
+
+👆 AQUÍ: Haz CLIC DERECHO en "usuarios"
+
+
+📸 CAPTURA 12: MENÚ CONTEXTUAL
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────────────┐
+│ 👥 usuarios                           │
+├───────────────────────────────────────┤
+│ Select Rows - Limit 1000         ←── │ ¡CLIC AQUÍ!
+│ Select Rows - Limit 1000 (skip 0)    │
+│ ─────────────────────────────────────│
+│ Table Inspector                       │
+│ Search Table Data                     │
+│ ─────────────────────────────────────│
+│ Alter Table...                        │
+│ Table Maintenance                     │
+│ ─────────────────────────────────────│
+│ Copy to Clipboard                     │
+│ Send to SQL Editor                    │
+└───────────────────────────────────────┘
+
+👆 AQUÍ: Selecciona "Select Rows - Limit 1000"
+
+
+📸 CAPTURA 13: TABLA CON DATOS
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────────────────────────────────────┐
+│ Result Grid                                          [Filter] │
+├────┬──────────────┬─────────────────┬──────────────────────┬──┤
+│ id │ cedula       │ nombre          │ apellido             │..│
+├────┼──────────────┼─────────────────┼──────────────────────┼──┤
+│ 1  │ 11004343198  │ LISBETH MRCELA  │ ACOSTA USCATEGUI     │  │
+│ 2  │ 11085288058  │ ANDREA MARGARITA│ ARCINIEGAS PAZ       │  │
+│ 3  │ 11130641294  │ FABIAN ANCIZAR  │ BASTIDAS BENAVIDES   │  │
+│ 4  │ 11193470035  │ CHRISTIAN CAMILO│ BELALCAZAR SARASTY   │  │
+│ 5  │ 11085288765  │ MARIA FERNANDA  │ BENAVIDES ENRIQUEZ   │  │
+│ 6  │ 11004540103  │ JOSE ANDRES     │ FAJARDO MARTINEZ     │  │
+│ ...│ ...          │ ...             │ ...                  │  │
+├────┴──────────────┴─────────────────┴──────────────────────┴──┤
+│ 66 rows returned                                              │
+└───────────────────────────────────────────────────────────────┘
+
+👆 ¡ÉXITO! Aquí están los 66 usuarios
+
+
+📸 CAPTURA 14: EJECUTAR QUERY PERSONALIZADA
+═══════════════════════════════════════════════════════════════
+
+┌───────────────────────────────────────────────────────────────┐
+│ Query 1                                          [⚡][💾]     │
+├───────────────────────────────────────────────────────────────┤
+│                                                               │
+│  1  SELECT * FROM usuarios WHERE cedula = '11004343198';     │
+│  2                                                            │
+│  3                                                            │
+│                                                               │
+├───────────────────────────────────────────────────────────────┤
+│ Result Grid                                                   │
+├────┬──────────────┬─────────────────┬──────────────────────┬──┤
+│ id │ cedula       │ nombre          │ apellido             │..│
+├────┼──────────────┼─────────────────┼──────────────────────┼──┤
+│ 1  │ 11004343198  │ LISBETH MRCELA  │ ACOSTA USCATEGUI     │  │
+├────┴──────────────┴─────────────────┴──────────────────────┴──┤
+│ 1 row returned                                                │
+└───────────────────────────────────────────────────────────────┘
+
+👆 RESULTADO: Usuario encontrado
+
+
+═══════════════════════════════════════════════════════════════
+
+✅ RESUMEN DE ICONOS IMPORTANTES
+
+⚡ = Ejecutar query (Ctrl + Shift + Enter)
+💾 = Guardar script
+📋 = Copiar
+🔍 = Buscar
+🔄 = Refrescar schemas
+▶ = Expandir
+▼ = Contraer
+📁 = Carpeta/Schema
+📋 = Tabla
+👥 = Tabla de usuarios
+
+═══════════════════════════════════════════════════════════════
+
+🎯 PRÓXIMOS PASOS
+
+1. ✅ Base de datos creada
+2. ✅ 66 usuarios cargados
+3. ⏭️ Configura server/.env
+4. ⏭️ Inicia el backend
+5. ⏭️ Prueba la aplicación
+
+═══════════════════════════════════════════════════════════════

@@ -1,0 +1,165 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║   MYSQL WORKBENCH - GUÍA RÁPIDA VISUAL                        ║
+║   (Interfaz Gráfica - Sin Comandos)                           ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+🎯 OBJETIVO: Crear la base de datos con los 66 usuarios
+
+═══════════════════════════════════════════════════════════════
+
+📋 PASO 1: ABRIR MYSQL WORKBENCH
+
+1. Busca en Windows: "MySQL Workbench"
+2. Ábrelo (tarda unos segundos)
+
+═══════════════════════════════════════════════════════════════
+
+🔐 PASO 2: CONECTAR
+
+┌─────────────────────────────────────────────────────────────┐
+│  MySQL Workbench                                            │
+│                                                             │
+│  MySQL Connections                                          │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │  🗄️  Local instance MySQL80                        │   │
+│  │      root@localhost:3306                            │   │
+│  │                                                     │   │
+│  │      👆 HAZ DOBLE CLIC AQUÍ                        │   │
+│  └─────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────┘
+
+3. Ingresa tu contraseña de MySQL
+4. Clic en "OK"
+
+═══════════════════════════════════════════════════════════════
+
+📂 PASO 3: ABRIR EL SCRIPT
+
+En MySQL Workbench:
+
+1. Clic en: File → Open SQL Script...
+2. Navega a: C:\Users\VALERIA\Downloads\graduados-master\server
+3. Selecciona: database.sql
+4. Clic en "Open"
+
+═══════════════════════════════════════════════════════════════
+
+⚡ PASO 4: EJECUTAR EL SCRIPT
+
+┌─────────────────────────────────────────────────────────────┐
+│  Query 1                                                    │
+│  ─────────────────────────────────────────────────────────  │
+│  [⚡] [💾] [📋] [🔍]  ← Botones aquí                      │
+│   ↑                                                         │
+│   └─ HAZ CLIC EN EL RAYO AMARILLO ⚡                       │
+│                                                             │
+│  1  CREATE DATABASE IF NOT EXISTS red_egresados...         │
+│  2  USE red_egresados;                                     │
+│  3  CREATE TABLE IF NOT EXISTS usuarios (                  │
+│  4    id INT AUTO_INCREMENT PRIMARY KEY,                   │
+│  ...                                                        │
+└─────────────────────────────────────────────────────────────┘
+
+5. Espera unos segundos...
+
+═══════════════════════════════════════════════════════════════
+
+✅ PASO 5: VERIFICAR
+
+En el panel izquierdo:
+
+┌─────────────────────────────────┐
+│  SCHEMAS                        │
+│  ─────────────────────────────  │
+│  🔄 ← Clic en refrescar        │
+│                                 │
+│  📁 red_egresados  ← ¡AQUÍ!   │
+│    ├─ 📋 Tables                │
+│    │   └─ 👥 usuarios          │
+│    ├─ 👁️ Views                 │
+│    └─ ⚙️ Stored Procedures     │
+└─────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════
+
+👥 PASO 6: VER LOS 66 USUARIOS
+
+1. Haz CLIC DERECHO en "usuarios"
+2. Selecciona: "Select Rows - Limit 1000"
+3. ¡Verás todos los usuarios!
+
+┌────┬──────────────┬─────────────────┬──────────────────────┐
+│ id │ cedula       │ nombre          │ apellido             │
+├────┼──────────────┼─────────────────┼──────────────────────┤
+│ 1  │ 11004343198  │ LISBETH MRCELA  │ ACOSTA USCATEGUI     │
+│ 2  │ 11085288058  │ ANDREA MARGARITA│ ARCINIEGAS PAZ       │
+│ 3  │ 11130641294  │ FABIAN ANCIZAR  │ BASTIDAS BENAVIDES   │
+│ ...│ ...          │ ...             │ ...                  │
+└────┴──────────────┴─────────────────┴──────────────────────┘
+
+66 rows returned ✅
+
+═══════════════════════════════════════════════════════════════
+
+🔍 QUERIES ÚTILES (Copia y Pega en el Query Editor)
+
+Ver todos los usuarios:
+┌─────────────────────────────────────────────────────────────┐
+│ SELECT * FROM usuarios;                                     │
+└─────────────────────────────────────────────────────────────┘
+
+Buscar un usuario específico:
+┌─────────────────────────────────────────────────────────────┐
+│ SELECT * FROM usuarios WHERE cedula = '11004343198';        │
+└─────────────────────────────────────────────────────────────┘
+
+Contar usuarios:
+┌─────────────────────────────────────────────────────────────┐
+│ SELECT COUNT(*) FROM usuarios;                              │
+└─────────────────────────────────────────────────────────────┘
+
+Ver usuarios con perfil completo:
+┌─────────────────────────────────────────────────────────────┐
+│ SELECT * FROM usuarios WHERE has_completed_profile = TRUE;  │
+└─────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════
+
+🎯 ATAJOS DE TECLADO
+
+Ctrl + Enter          → Ejecutar query actual
+Ctrl + Shift + Enter  → Ejecutar todo el script
+F5                    → Refrescar schemas
+Ctrl + T              → Nueva pestaña
+
+═══════════════════════════════════════════════════════════════
+
+✅ CHECKLIST
+
+□ MySQL Workbench abierto
+□ Conectado a Local instance MySQL80
+□ Script database.sql ejecutado
+□ Base de datos "red_egresados" visible
+□ Tabla "usuarios" con 66 registros
+□ Puedo ver los datos
+
+═══════════════════════════════════════════════════════════════
+
+🎉 ¡LISTO!
+
+Ahora configura el backend:
+
+1. Abre: server/.env
+2. Edita: DB_PASSWORD=tu_contraseña_mysql
+3. Guarda el archivo
+4. Ejecuta: cd server && npm start
+
+═══════════════════════════════════════════════════════════════
+
+📚 MÁS INFORMACIÓN
+
+Lee: MYSQL_WORKBENCH_GUIA.md para guía completa
+
+═══════════════════════════════════════════════════════════════

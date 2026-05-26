@@ -1,0 +1,115 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║   RED DE EGRESADOS - UNIVERSIDAD MARIANA                      ║
+║   ¡BIENVENIDO!                                                ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+📚 GUÍAS DISPONIBLES (Lee en este orden):
+
+1. 🚀 INICIO_RAPIDO.md
+   └─ Empieza aquí si es tu primera vez
+   └─ 3 pasos simples para comenzar
+
+2. 📥 INSTALAR_MYSQL.md
+   └─ Guía completa para instalar MySQL en Windows
+   └─ Paso a paso con capturas de pantalla
+
+3. 🖥️ MYSQL_WORKBENCH_GUIA.md ⭐ NUEVO
+   └─ Usar MySQL con interfaz gráfica (MÁS FÁCIL)
+   └─ Sin comandos, todo con clics
+   └─ ¡RECOMENDADO para principiantes!
+
+4. 📸 GUIA_VISUAL.md
+   └─ Guía visual con diagramas ASCII
+   └─ Para entender mejor cada paso
+
+5. ⚙️ CONFIGURAR_TODO.bat
+   └─ Script automático que hace todo por ti
+   └─ ¡Solo ejecuta y sigue las instrucciones!
+
+6. 📖 README.md
+   └─ Documentación completa del proyecto
+   └─ Características y tecnologías
+
+7. 🗄️ README_MYSQL.md
+   └─ Guía técnica de MySQL
+   └─ API endpoints y estructura de BD
+
+8. 👥 LISTA_USUARIOS.txt
+   └─ 66 usuarios precargados
+   └─ Todos usan su cédula como contraseña
+
+9. 📋 RESUMEN_IMPLEMENTACION.md
+   └─ Detalles técnicos completos
+   └─ Para desarrolladores
+
+═══════════════════════════════════════════════════════════════
+
+⚡ INICIO RÁPIDO (3 PASOS):
+
+1️⃣ INSTALAR MYSQL
+   • Descarga: https://dev.mysql.com/downloads/installer/
+   • Instala siguiendo INSTALAR_MYSQL.md
+   • Anota tu contraseña de root
+
+2️⃣ CONFIGURAR TODO
+   • Ejecuta: CONFIGURAR_TODO.bat
+   • Ingresa tu contraseña de MySQL
+   • ¡Espera a que termine!
+
+3️⃣ USAR LA APLICACIÓN
+   • Abre: http://localhost:5173
+   • Login con: 11004343198 / 11004343198
+   • ¡Disfruta!
+
+═══════════════════════════════════════════════════════════════
+
+🎯 USUARIOS DE PRUEBA:
+
+Cédula: 11004343198 | LISBETH MRCELA ACOSTA USCATEGUI
+Cédula: 11085288058 | ANDREA MARGARITA ARCINIEGAS PAZ
+Cédula: 1234567890  | Juan Pérez (Usuario de prueba)
+
+Todos usan su cédula como contraseña.
+Ver LISTA_USUARIOS.txt para los 66 usuarios completos.
+
+═══════════════════════════════════════════════════════════════
+
+❓ ¿PROBLEMAS?
+
+• "mysql no se reconoce" → Agrega MySQL al PATH
+• "Access denied" → Verifica contraseña en server/.env
+• "Cannot connect" → Inicia el servicio MySQL80
+• Otros → Lee INSTALAR_MYSQL.md sección "Solución de Problemas"
+
+═══════════════════════════════════════════════════════════════
+
+📞 SOPORTE:
+
+1. Lee las guías en orden
+2. Revisa la sección de problemas comunes
+3. Verifica que MySQL esté corriendo
+4. Asegúrate que los puertos 3001 y 5173 estén libres
+
+═══════════════════════════════════════════════════════════════
+
+✅ CHECKLIST:
+
+□ MySQL instalado
+□ Base de datos creada (red_egresados)
+□ 66 usuarios cargados
+□ Archivo server/.env configurado
+□ Backend corriendo (puerto 3001)
+□ Frontend corriendo (puerto 5173)
+□ Puedo hacer login
+□ Los datos se guardan en MySQL
+
+═══════════════════════════════════════════════════════════════
+
+🎉 ¡LISTO PARA COMENZAR!
+
+Universidad Mariana - Red de Egresados
+Pasto, Nariño, Colombia
+
+═══════════════════════════════════════════════════════════════
